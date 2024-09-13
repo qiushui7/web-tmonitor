@@ -1,0 +1,36 @@
+{
+  "name": "web-tmonitor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish",
+    "commit": "cz",
+    "postinstall": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.8",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.10.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "rollup": "^4.21.3",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}

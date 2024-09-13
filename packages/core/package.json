@@ -1,0 +1,17 @@
+{
+  "name": "@web-tmonitor/core",
+  "version": "1.0.2",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@web-tmonitor/performance": "workspace:^"
+  }
+}
