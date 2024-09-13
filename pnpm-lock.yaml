@@ -53,6 +53,9 @@ importers:
       '@web-tmonitor/performance':
         specifier: workspace:^
         version: link:../performance
+      '@web-tmonitor/utils':
+        specifier: workspace:^
+        version: link:../utils
 
   packages/performance: {}
 

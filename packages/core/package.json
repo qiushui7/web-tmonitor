@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@web-tmonitor/performance": "workspace:^"
+    "@web-tmonitor/performance": "workspace:^",
+    "@web-tmonitor/utils": "workspace:^"
   }
 }
