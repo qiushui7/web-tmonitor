@@ -1,4 +1,4 @@
-import {standradFCP} from './constant.js';
+import {standardFCP} from './constant.js';
 export function getFCP(callback) {
   const entryHandler = (list) => {
     let fcpValue = 0;
@@ -9,7 +9,7 @@ export function getFCP(callback) {
         callback({
           name: 'FCP',
           value: fcpValue,
-          rating: fcpValue > standradFCP ? 'poor' : 'good'
+          rating: fcpValue > standardFCP ? 'poor' : 'good'
         });
       }
     }

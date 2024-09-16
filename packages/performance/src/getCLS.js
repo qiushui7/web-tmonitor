@@ -1,4 +1,4 @@
-import {standradCLS} from './constant.js';
+import {standardCLS} from './constant.js';
 export function getCLS(callback) {
   const entryHandler = (list) => {
     let clsValue = 0;
@@ -13,7 +13,7 @@ export function getCLS(callback) {
     callback({
       name: 'CLS',
       value: clsValue,
-      rating: clsValue > standradCLS ? 'poor' : 'good'
+      rating: clsValue > standardCLS ? 'poor' : 'good'
     });
   };
   const observer = new PerformanceObserver(entryHandler);

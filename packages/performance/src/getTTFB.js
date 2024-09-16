@@ -1,4 +1,4 @@
-import {standradTTFB} from './constant.js';
+import {standardTTFB} from './constant.js';
 export function getTTFB(callback) {
   const entryHandler = (list) => {
     let ttfbValue;
@@ -10,7 +10,7 @@ export function getTTFB(callback) {
         callback({
           name: 'TTFB',
           value: ttfbValue,
-          rating: ttfbValue > standradTTFB ? 'poor' : 'good'
+          rating: ttfbValue > standardTTFB ? 'poor' : 'good'
         });
       }
     });

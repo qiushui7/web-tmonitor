@@ -1,4 +1,4 @@
-import {standradLCP} from './constant.js';
+import {standardLCP} from './constant.js';
 export function getLCP(callback) {
   const entryHandler = (list) => {
     let lcpValue = 0;
@@ -12,7 +12,7 @@ export function getLCP(callback) {
         callback({
           name: 'LCP',
           value: lcpValue,
-          rating: lcpValue > standradLCP ? 'poor' : 'good'
+          rating: lcpValue > standardLCP ? 'poor' : 'good'
         });
       }
     }

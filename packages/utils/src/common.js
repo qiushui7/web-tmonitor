@@ -35,3 +35,19 @@ export function deepClone(obj) {
 export function isSafari() {
   return /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
 }
+
+export function replace(
+  source,
+  name,
+  replacement,
+  isForced = false
+) {
+  if (source === undefined) return;
+  if (name in source || isForced) {
+    const original = source[name];
+    const wrapped = replacement(original);
+    if (typeof wrapped === 'function') {
+      source[name] = wrapped;
+    }
+  }
+}

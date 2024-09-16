@@ -1,4 +1,4 @@
-import {standradFID} from './constant.js';
+import {standardFID} from './constant.js';
 export function getFID(callback) {
   const entryHandler = (list) => {
     let fidValue = 0;
@@ -11,7 +11,7 @@ export function getFID(callback) {
         callback({
           name: 'FID',
           value: fidValue,
-          rating: fidValue > standradFID ? 'poor' : 'good'
+          rating: fidValue > standardFID ? 'poor' : 'good'
         });
       }
     });
