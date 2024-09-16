@@ -1,6 +1,6 @@
 import {eventBus,setConfig,lazyReportBatch as reportData} from './core/index.js';
 
-const TMonitor = {
+export const TMonitor = {
   eventBus: new eventBus(),
   init(config){
     setConfig(config);

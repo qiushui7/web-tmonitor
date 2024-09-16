@@ -31,3 +31,7 @@ export function deepClone(obj) {
 
   return clone;
 }
+
+export function isSafari() {
+  return /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
+}

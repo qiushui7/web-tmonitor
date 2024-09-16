@@ -57,7 +57,14 @@ importers:
         specifier: workspace:^
         version: link:../utils
 
-  packages/performance: {}
+  packages/performance:
+    dependencies:
+      '@web-tmonitor/utils':
+        specifier: workspace:^
+        version: link:../utils
+      web-vitals:
+        specifier: ^4.2.3
+        version: 4.2.3
 
   packages/record: {}
 
@@ -2990,6 +2997,10 @@ packages:
     dependencies:
       defaults: 1.0.4
     dev: true
+
+  /web-vitals@4.2.3:
+    resolution: {integrity: sha512-/CFAm1mNxSmOj6i0Co+iGFJ58OS4NRGVP+AWS/l509uIK5a1bSoIVaHz/ZumpHTfHSZBpgrJ+wjfpAOrTHok5Q==}
+    dev: false
 
   /which@1.3.1:
     resolution: {integrity: sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==}
