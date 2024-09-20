@@ -87,7 +87,7 @@ export function whiteScreen(callback, hasSkeleton, checkElements) {
     }
     callback({
       subType: 'whiteScreen',
-      status: empty === 17 ? 'error' : 'ok',
+      status: empty === 36 ? 'error' : 'ok',
       time: Date.now()
     });
   }

@@ -1,5 +1,11 @@
 # @web-tmonitor/behavior
 
+## 1.1.1
+
+### Patch Changes
+
+- bugfix
+
 ## 1.1.0
 
 ### Minor Changes
