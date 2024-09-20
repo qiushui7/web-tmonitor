@@ -27,6 +27,7 @@ export function report(data) {
 }
 // 批量上报数据
 export function lazyReportBatch(data) {
+  data.projectName=config.projectName;
   addCache(data);
   const dataCache = getCache();
   console.error('dataCache', dataCache);

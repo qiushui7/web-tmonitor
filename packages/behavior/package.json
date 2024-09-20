@@ -1,8 +1,7 @@
 {
-  "name": "@web-tmonitor/performance",
-  "version": "1.1.2",
+  "name": "@web-tmonitor/behavior",
+  "version": "1.1.0",
   "description": "",
-  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "scripts": {
@@ -15,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@web-tmonitor/utils": "workspace:^",
-    "web-vitals": "^4.2.3"
+    "@web-tmonitor/utils": "workspace:^"
   }
 }

@@ -1,5 +1,21 @@
 # @web-tmonitor/performance
 
+## 1.1.2
+
+### Patch Changes
+
+- user behavior and whiteSreen monitoring
+- Updated dependencies
+  - @web-tmonitor/utils@1.0.4
+
+## 1.1.1
+
+### Patch Changes
+
+- Error and interface monitoring
+- Updated dependencies
+  - @web-tmonitor/utils@1.0.3
+
 ## 1.1.0
 
 ### Minor Changes

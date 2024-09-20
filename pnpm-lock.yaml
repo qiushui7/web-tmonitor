@@ -48,6 +48,12 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4(rollup@4.21.3)
 
+  packages/behavior:
+    dependencies:
+      '@web-tmonitor/utils':
+        specifier: workspace:^
+        version: link:../utils
+
   packages/core:
     dependencies:
       '@web-tmonitor/performance':
