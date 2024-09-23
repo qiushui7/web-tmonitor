@@ -1,5 +1,12 @@
 # @web-tmonitor/behavior
 
+## 1.1.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @web-tmonitor/utils@1.0.5
+
 ## 1.1.1
 
 ### Patch Changes

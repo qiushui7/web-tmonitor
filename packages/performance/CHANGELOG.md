@@ -1,5 +1,12 @@
 # @web-tmonitor/performance
 
+## 1.1.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @web-tmonitor/utils@1.0.5
+
 ## 1.1.2
 
 ### Patch Changes

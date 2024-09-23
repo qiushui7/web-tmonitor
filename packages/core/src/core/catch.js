@@ -1,3 +1,4 @@
+import {Tmonitor} from '@web-tmonitor/utils';
 
 export function catchError(callback) {
   // 捕获资源加载失败的错误： js css img
@@ -14,6 +15,7 @@ export function catchError(callback) {
           pageUrl: window.location.href,
           paths: e.path
         };
+        Tmonitor.hasError=true;
         callback(reportData);
       }
     },
@@ -31,6 +33,7 @@ export function catchError(callback) {
       pageUrl: window.location.href,
       startTime: performance.now()
     };
+    Tmonitor.hasError=true;
     callback(reportData);
   };
   // 捕获promise错误  async await
@@ -43,6 +46,7 @@ export function catchError(callback) {
         pageUrl: window.location.href,
         startTime: e.timeStamp
       };
+      Tmonitor.hasError=true;
       callback(reportData);
     },
     true

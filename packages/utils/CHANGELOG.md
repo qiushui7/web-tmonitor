@@ -1,5 +1,11 @@
 # @web-tmonitor/utils
 
+## 1.0.5
+
+### Patch Changes
+
+- recordPlugin
+
 ## 1.0.4
 
 ### Patch Changes
